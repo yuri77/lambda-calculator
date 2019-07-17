@@ -1,7 +1,7 @@
 import React from "react";
 
 const NumberButton = ({ whatever }) => {
-  return <button key={whatever}> {whatever}</button>;
+  return <button> {whatever}</button>;
 };
 
 export default NumberButton;
